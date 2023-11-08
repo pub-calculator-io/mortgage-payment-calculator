@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Mortgage Payment Calculator](https://www.calculator.io/mortgage-payment-calculator/ "Mortgage Payment Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_mortgage_payment_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Mortgage Payment Calculator to the sidebar through the `Appearance -> Widgets -> Mortgage Payment Calculator` menu in WordPress.
+* Add the shortcode `[ci_mortgage_payment_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_mortgage_payment_calculator(); ?>` to your template where you would like the Mortgage Payment Calculator to appear.
 
 == Screenshots ==
