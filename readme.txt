@@ -2,7 +2,7 @@
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
-Tested up to: 6.3.0
+Tested up to: 6.4.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,12 @@ Free mortgage payment calculator helps assess possibilities for paying off a mor
 == Description ==
 
 Free mortgage payment calculator helps assess possibilities for paying off a mortgage sooner, such as additional payments, bi-weekly payments, or paying off the loan entirely.
+
+__Shortcode__
+
+Use the Mortgage Payment Calculator shortcode:
+
+`[ci_mortgage_payment_calculator]`
 
 Libraries in use:
 1. https://mathjs.org/
@@ -25,8 +31,11 @@ Libraries in use:
 
 1. Upload the /ci_mortgage_payment_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Mortgage Payment Calculator](https://www.calculator.io/mortgage-payment-calculator/ "Mortgage Payment Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-3. Configure your settings via Appearance > Widgets > Mortgage Payment Calculator.
-4. And you're good to go!
+
+== Usage ==
+* Add the shortcode `[ci_mortgage_payment_calculator]` to your page or post and configure default mortgage parameters.
+* If you are using widgets, just add the Mortgage Payment Calculator to the sidebar through the `Appearance -> Widgets -> Mortgage Payment Calculator` menu in WordPress.
+* Add the following code: `<?php display_ci_mortgage_payment_calculator(); ?>` to your template where you would like the Mortgage Payment Calculator to appear.
 
 == Screenshots ==
 1. The Mortgage Payment Calculator Input Form.
