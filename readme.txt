@@ -13,6 +13,8 @@ Free mortgage payment calculator helps assess possibilities for paying off a mor
 
 Free mortgage payment calculator helps assess possibilities for paying off a mortgage sooner, such as additional payments, bi-weekly payments, or paying off the loan entirely.
 
+[Mortgage Payment Calculator Homepage](https://www.calculator.io/mortgage-payment-calculator/ "Mortgage Payment Calculator Homepage")
+
 __Shortcode__
 
 Use the Mortgage Payment Calculator shortcode:
