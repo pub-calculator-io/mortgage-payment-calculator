@@ -22,6 +22,7 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 			tealGradientStart: 'rgba(56, 248, 222, 0.16)',
 			yellowGradientStop: 'rgba(250, 219, 139, 0)',
 			purpleGradientStop: 'rgba(104, 56, 248, 0)',
+			skyGradientStop: 'rgba(56, 187, 248, 0.16)',
 			gridColor: '#DBEAFE',
 			tooltipBackground: '#fff',
 			fractionColor: '#EDE9FE',
