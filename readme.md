@@ -1,4 +1,4 @@
-# Mortgage Payment Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Mortgage Payment Calculator Widget for WordPress
 
 Free mortgage payment calculator helps assess possibilities for paying off a mortgage sooner, such as additional payments, bi-weekly payments, or paying off the loan entirely.
 
