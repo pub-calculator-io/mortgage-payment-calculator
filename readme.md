@@ -7,7 +7,7 @@ Free mortgage payment calculator helps assess possibilities for paying off a mor
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/mortgage-payment-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /mortgage-payment-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Mortgage Payment Calculator](https://www.calculator.io/mortgage-payment-calculator/ "Mortgage Payment Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
