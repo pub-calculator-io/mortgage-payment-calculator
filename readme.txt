@@ -1,4 +1,4 @@
-=== Mortgage Payment Calculator by www.calculator.io ===
+=== CI Mortgage payment calculator ===
 Contributors: calculatorio
 Tags: mortgage payment calculator, monthly mortgage calculator, mortgage amortization calculator, mortgage interest calculator, mortgage calculator with taxes and insurance, mortgage payoff calculator, mortgage extra payment calculator, mortgage principal calculator, mortgage refinance calculator, home loan calculator
 Requires at least: 5.0

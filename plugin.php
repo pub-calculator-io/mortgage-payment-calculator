@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Mortgage Payment Calculator by www.calculator.io
+Plugin Name: CI Mortgage payment calculator
 Plugin URI: https://www.calculator.io/mortgage-payment-calculator/
 Description: Free mortgage payment calculator helps assess possibilities for paying off a mortgage sooner, such as additional payments, bi-weekly payments, or paying off the loan entirely.
 Version: 1.0.0
