@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Mortgage Paymen
 == Screenshots ==
 
 1. The Mortgage Payment Calculator Input Form.
-2. The Mortgage Payment Calculator Calculation Results.
 
 == Installation ==
 

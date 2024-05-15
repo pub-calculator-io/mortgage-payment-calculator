@@ -3,7 +3,6 @@
 Free mortgage payment calculator helps assess possibilities for paying off a mortgage sooner, such as additional payments, bi-weekly payments, or paying off the loan entirely.
 
 ![Mortgage Payment Calculator Input Form](/assets/images/screenshot-1.png "Mortgage Payment Calculator Input Form")
-![Mortgage Payment Calculator Calculation Results](/assets/images/screenshot-2.png "Mortgage Payment Calculator Calculation Results")
 
 ## Installation
 

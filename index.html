@@ -98,14 +98,17 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -120,11 +123,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Result</p>
-	<p class="table-cell table-cell--big table-cell--age table-cell--only row" id="payoff-time">Payoff in 15 years and 6 months</p>
+	<p class="table-cell table-cell--big table-cell--age table-cell--only row animate" id="payoff-time">Payoff in 15 years and 6 months</p>
 	<div class="result-table__wrapper">
 		<table class="result-table">
 			<thead class="dark">
@@ -135,46 +137,46 @@
 			<tbody>
 				<tr>
 					<th>Monthly Payment</th>
-					<td id="monthly-payment-extra">$2,445.79</td>
+					<td id="monthly-payment-extra" class="animate">$2,445.79</td>
 				</tr>
 				<tr>
 					<th>Total Payments</th>
-					<td id="total-payment-extra">$571,647.26</td>
+					<td id="total-payment-extra" class="animate">$571,647.26</td>
 				</tr>
 				<tr>
 					<th>Total Interest</th>
-					<td id="total-interest-extra">$271,647.26</td>
+					<td id="total-interest-extra" class="animate">$271,647.26</td>
 				</tr>
 				<tr>
 					<th>Remaining Payments</th>
-					<td id="remaining-payments-extra">$454,899.86</td>
+					<td id="remaining-payments-extra" class="animate">$454,899.86</td>
 				</tr>
 				<tr>
 					<th>Remaining Interest</th>
-					<td id="remaining-interest-extra">$173,272.43 </td>
+					<td id="remaining-interest-extra" class="animate">$173,272.43 </td>
 				</tr>
 				<tr>
 					<th class="dark indigo" colspan="2">THE ORIGINAL PAYOFF SCHEDULE</th>
 				</tr>
 				<tr>
 					<th>Monthly Pay</th>
-					<td id="monthly-payment">$1,945.79</td>
+					<td id="monthly-payment" class="animate">$1,945.79</td>
 				</tr>
 				<tr>
 					<th>Total Payments</th>
-					<td id="total-payment">$700,484.40</td>
+					<td id="total-payment" class="animate">$700,484.40</td>
 				</tr>
 				<tr>
 					<th>Total Interest</th>
-					<td id="total-interest">$400,484.40</td>
+					<td id="total-interest" class="animate">$400,484.40</td>
 				</tr>
 				<tr>
 					<th>Remaining Payments</th>
-					<td id="remaining-payments">$583,737.00</td>
+					<td id="remaining-payments" class="animate">$583,737.00</td>
 				</tr>
 				<tr>
 					<th>Remaining Interest</th>
-					<td id="remaining-interest">$302,109.57</td>
+					<td id="remaining-interest" class="animate">$302,109.57</td>
 				</tr>
 			</tbody>
 		</table>
